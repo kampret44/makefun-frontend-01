@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <meta name="description" content="A quiet workspace for discovering make.fun bounties, following live results, and meeting the builders.">
+  <title>make.fun / Fieldwork</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#/" aria-label="make.fun home"><span class="mark">m<span>↗</span></span>make.fun<span class="brand-dot">®</span></a>
+    <div class="workspace-label">THE BUILDER WORKSPACE</div>
+    <nav aria-label="Primary"><a class="nav-board" href="#/"><span>▦</span> Bounty board <span class="nav-arrow">↗</span></a><a href="#/bounty/makefun-frontend-01/leaderboard"><span>≋</span> Leaderboard</a><a href="#/profile/superskie"><span>◎</span> Builder profile</a></nav>
+    <div class="side-note"><span class="small-dot"></span> Built in the open<p>Real challenges.<br>Independent builders.<br>Rewards for good work.</p><a href="https://make.fun" target="_blank" rel="noopener">Explore make.fun ↗</a></div>
+    <div class="sidebar-bottom">FIELDWORK <span>PUBLIC EXPLORER / 01</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>Discover <span class="slash">/</span> <strong id="section-label">Bounties</strong></span><span class="connection"><i></i> Live from make.fun <button id="refresh" title="Revalidate live data">↻ <span>Refresh</span></button></span></header>
+    <main id="content" tabindex="-1"><div id="app" aria-live="polite"></div></main>
+    <footer><span>Good work starts with a little curiosity.</span><span>make.fun public API · Read-only explorer</span></footer>
+  </div>
+</body>
+</html>
